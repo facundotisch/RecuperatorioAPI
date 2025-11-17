@@ -1,5 +1,0 @@
-# Created at 2025-10-28T17:20:27.489
-Boot Manifest-JAR contains absolute paths in classpath 'D:\000 Facundo\Facultad\Materias\API\repositorio back\UADE-API-BACKEND\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-

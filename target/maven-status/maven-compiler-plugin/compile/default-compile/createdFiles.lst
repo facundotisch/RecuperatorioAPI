@@ -4,6 +4,7 @@ com\uade\tpo\marketplace\controllers\productos\ProductoAtributoRequest.class
 com\uade\tpo\marketplace\service\imp\UsuarioServiceImp.class
 com\uade\tpo\marketplace\service\CategoriaService.class
 com\uade\tpo\marketplace\configs\JwtAuthenticationFilter.class
+com\uade\tpo\marketplace\entity\Favorite.class
 com\uade\tpo\marketplace\controllers\productos\ProductoUpdateRequest.class
 com\uade\tpo\marketplace\exceptions\ProductoExistenteException.class
 com\uade\tpo\marketplace\repository\CategoriaRepository.class
@@ -40,6 +41,7 @@ com\uade\tpo\marketplace\service\UsuarioService.class
 com\uade\tpo\marketplace\controllers\auth\AuthenticationResponse$AuthenticationResponseBuilder.class
 com\uade\tpo\marketplace\controllers\auth\AuthenticationRequest$AuthenticationRequestBuilder.class
 com\uade\tpo\marketplace\controllers\items\ItemResponse.class
+com\uade\tpo\marketplace\entity\Favorite$FavoriteBuilder.class
 com\uade\tpo\marketplace\enums\EstadoCompra.class
 com\uade\tpo\marketplace\service\AuthenticationService.class
 com\uade\tpo\marketplace\controllers\compras\CompraController.class
@@ -51,6 +53,7 @@ com\uade\tpo\marketplace\enums\Role.class
 com\uade\tpo\marketplace\config\CorsConfig$1.class
 com\uade\tpo\marketplace\configs\ApplicationConfig.class
 com\uade\tpo\marketplace\controllers\auth\AuthenticationResponse.class
+com\uade\tpo\marketplace\repository\FavoriteRepository.class
 com\uade\tpo\marketplace\entity\Atributo.class
 com\uade\tpo\marketplace\config\CorsConfig.class
 com\uade\tpo\marketplace\MarketplaceApplication.class
@@ -60,6 +63,7 @@ com\uade\tpo\marketplace\controllers\usuarios\UsuarioController.class
 com\uade\tpo\marketplace\service\imp\ItemServiceImp.class
 com\uade\tpo\marketplace\repository\ProductoRepository.class
 com\uade\tpo\marketplace\repository\ValorAtributoProducto.class
+com\uade\tpo\marketplace\controllers\favoritos\FavoriteController.class
 com\uade\tpo\marketplace\entity\Producto$ProductoBuilder.class
 com\uade\tpo\marketplace\controllers\auth\AuthenticationRequest.class
 com\uade\tpo\marketplace\exceptions\CompraNotFoundException.class
@@ -77,3 +81,4 @@ com\uade\tpo\marketplace\controllers\items\ItemRequest.class
 com\uade\tpo\marketplace\controllers\productos\ProductoController.class
 com\uade\tpo\marketplace\controllers\categorias\CategoriaRequest.class
 com\uade\tpo\marketplace\controllers\auth\AuthenticationController.class
+com\uade\tpo\marketplace\service\FavoriteService.class
