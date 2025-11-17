@@ -39,6 +39,11 @@ public class ReporteProblemaServiceImp implements ReporteProblemaService {
                 .orElseThrow(() -> new IllegalArgumentException("Reporte no encontrado"));
     }
 
+    @Override
+    public List<ReporteProblema> listarTodos() {
+        return repository.findAll();
+    }
+
     private String concatenarFotos(List<String> fotos) {
         if (fotos == null || fotos.isEmpty()) {
             return null;
