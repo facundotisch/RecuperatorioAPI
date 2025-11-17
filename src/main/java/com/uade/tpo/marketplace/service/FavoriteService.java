@@ -6,6 +6,8 @@ import com.uade.tpo.marketplace.entity.Usuario;
 import com.uade.tpo.marketplace.repository.FavoriteRepository;
 import com.uade.tpo.marketplace.repository.ProductoRepository;
 import com.uade.tpo.marketplace.repository.UsuarioRepository;
+
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -47,6 +49,7 @@ public class FavoriteService {
         return favoriteRepository.findByUsuario(usuario);
     }
 
+    @Transactional
     public void removeFavorite(String userId, String productId) {
 
         Usuario usuario = usuarioRepository.findById(userId)
