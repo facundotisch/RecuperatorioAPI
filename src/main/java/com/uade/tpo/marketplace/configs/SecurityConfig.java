@@ -41,6 +41,10 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.GET, "/api/v1/favorites/**").hasRole("COMPRADOR")
                         .requestMatchers(HttpMethod.DELETE, "/api/v1/favorites/**").hasRole("COMPRADOR")
 
+                        // REPORTES DE PROBLEMA
+                        .requestMatchers(HttpMethod.POST, "/api/v1/reportes-problema/**").hasRole("COMPRADOR")
+                        .requestMatchers(HttpMethod.GET, "/api/v1/reportes-problema/**").hasRole("ADMINISTRADOR")
+
                         // USUARIOS
                         .requestMatchers(HttpMethod.GET, "/usuarios/").hasRole("ADMINISTRADOR")
                         .requestMatchers(HttpMethod.GET, "/usuarios/{id}").hasAnyRole("ADMINISTRADOR", "COMPRADOR")
