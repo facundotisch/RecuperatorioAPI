@@ -1,4 +1,4 @@
-package com.uade.tpo.marketplace.config;
+package com.uade.tpo.marketplace.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
